@@ -8,39 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2d3679e5d3.js" crossorigin="anonymous"></script>
-    <style>
-        * {
-            font-family: "Montserrat", sans-serif;
-        }
-        #header {
-            background-color: rgb(226, 200, 165);
-            margin-top: 50px;
-            margin-bottom: 50px;
-        }
-        #nameAndTitle {
-            background-color: white;
-            width: 700px;
-            margin: 0 auto;
-            text-align: center;
-        }
-        h1, h2, h3 {
-            text-transform: uppercase;
-        }
-        #contact {
-            list-style-type: none;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-        #contact li {
-            display: flex;
-            align-items: center;
-        }
-        #contact img {
-            margin-right: 16px;
-            fill: rgb(226, 200, 165);
-        }
-        </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div id="header">
@@ -59,7 +27,58 @@
                     <li><img src="./icons/location.svg" alt="">Natal, RN</li>
                 </ul>
             </div>
-            <div id="content"></div>
+            <div class="card">
+                <h3>skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRPIT</li>
+                    <li>TYPESCRPIT</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Formação Acadêmica</h3>
+                <ul>
+                    <li>Formação Arquiteto de Software</li>
+                    <li>Bacharelando em Engenharia de Software(Cursando)</li>
+                    <li>Especialista em Eng de Redes de Computadores</li>
+                    <li>Tecnólogo em Redes de Computadores</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Links</h3>
+                <ul>
+                    <li><a target="_blank" href="">Linkedin</a></li>
+                    <li><a target="_blank" href="">Facebook</a></li>
+                    <li><a target="_blank" href="">Instagram</a></li>
+                    <li><a target="_blank" href="">X</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+            <div class="card">
+                <h3>Sobre Mim</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Molestiae fuga magnam, 
+                    sunt fugiat doloremque obcaecati quis, 
+                    excepturi veritatis veniam neque magni 
+                    deleniti sed exercitationem quas? Vitae 
+                    ullam mollitia consectetur explicabo?
+                </p>
+            </div>
+            <div class="card">
+                <h3>Experiências Profissionais</h3>
+                <p>
+                    <b>Claro S.A. - Set/2011 a Mar/2024</b><br>
+                    Molestiae fuga magnam, sunt fugiat 
+                    doloremque obcaecati quis, dollor.
+                    <ul>
+                        <li>Técnico de Headend III</li>
+                        <li>Técnico de operações especialista em Telecomunicações</li>
+                    </ul>
+                </p>
+            </div>
         </div>
     </div>
 </body>

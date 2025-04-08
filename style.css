@@ -1,0 +1,46 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+#header {
+    background-color: rgb(226, 200, 165);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#nameAndTitle {
+    background-color: white;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+#contact {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#contact li {
+    display: flex;
+    align-items: center;
+}
+#contact img {
+    margin-right: 16px;
+    fill: rgb(226, 200, 165);
+}
+#container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    gap: 25px
+}
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.card {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 25px;
+}
